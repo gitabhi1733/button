@@ -41,6 +41,33 @@ if(a>b){// grather than symbole (>)
 if(a<b){// a chota hi b se
   console.log("a less than b");
   }
+  // function create in this chapter 
+  function show(){
+    console.log(" this is now go to market")
+  }
+  var company={// ek object crate karte hi and find that value
+    name:"tesla",
+    since:1990,
+    pincod:212216,
+
+  }
+  console.log(company.pincod);
+  //
+  //FOR IN KEVAL OBJECT  KE VALUE SHOW KARTA HI
+  for(value in company){// es me (value)  object ka define batata hi
+    console.log(value+" "+company[value]);
+  }
+  // FOR FO USE IN THIS CODE
+  var  vowel="learnvern"
+  for(value of vowel){
+    
+    console.log(value);
+  
+}
+//
+// funcation and object kaise kaam karta hi 
+
+  
   
 
 
